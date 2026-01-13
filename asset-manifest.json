@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/crime/static/css/main.fb46c291.css",
+    "main.js": "/crime/static/js/main.82e3d4aa.js",
+    "static/js/453.d17bc2d1.chunk.js": "/crime/static/js/453.d17bc2d1.chunk.js",
+    "static/media/back1.jpg": "/crime/static/media/back1.e8d55c40a9df7a9558f4.jpg",
+    "static/media/officer.jpg": "/crime/static/media/officer.c6237d5a4bfa7c143d96.jpg",
+    "index.html": "/crime/index.html",
+    "main.fb46c291.css.map": "/crime/static/css/main.fb46c291.css.map",
+    "main.82e3d4aa.js.map": "/crime/static/js/main.82e3d4aa.js.map",
+    "453.d17bc2d1.chunk.js.map": "/crime/static/js/453.d17bc2d1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb46c291.css",
+    "static/js/main.82e3d4aa.js"
+  ]
+}
