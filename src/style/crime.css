@@ -1,9 +1,12 @@
 .crime-container {
     padding: 2rem;
-    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     min-height: calc(100vh - 4rem);
     position: relative;
-    padding-top: 10rem;
+    padding-top: 20rem;
     max-width: 900px;
     
 }
@@ -11,11 +14,11 @@
 .crime-table {
 
     border-collapse: collapse;
-    margin-top: 50px;
+    margin-top: 20px;
     background-color: #1a1a1a;
     color: #9c823a;
     padding: 5px 20px;
-    
+    margin-bottom: 300px;
 }
 
 .crime-table td {
@@ -37,10 +40,10 @@
 .crime-title {
     color:#9c823a;
     text-align: center;
-    margin-top: 400px;
+    margin-top: 0px;
     font-size: 2em;
     text-shadow: #1a1a1a 3px;
-    margin-right: 150px;
+   
 }
 .report-section {
     max-width: 600px;
@@ -55,8 +58,10 @@
    width: 200%;
    align-items: center;
    justify-content: center;
-   margin-right: 150px;
+   margin-right: 10px;
    font-size: 20px;
+   margin-bottom: 2px;
+   
 
   }
   

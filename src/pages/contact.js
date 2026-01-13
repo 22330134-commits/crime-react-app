@@ -1,6 +1,7 @@
 import React from "react";
 import '../style/crime.css';
 import '../style/Contact.css';
+import avatarImg from "../assets/officer.jpg";
 
 function Contact() {
   const prisons = [
@@ -28,6 +29,7 @@ function Contact() {
 
   return (
     <div className="crime-container">
+      <img src={avatarImg} alt="Officer photo" className="profile-avatar" />
       <h1 className="crime-title">Contact Information of Prisons in Lebanon</h1>
       <table className="crime-table">
         <thead>

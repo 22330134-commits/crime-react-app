@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../style/crime.css";
+import avatarImg from "../assets/officer.jpg";
 
 function Messages() {
   const [messages] = useState([
@@ -19,8 +20,9 @@ function Messages() {
 
   return (
     <div className="crime-container">
+      <img src={avatarImg} alt="Officer photo" className="profile-avatar" />
       <h2 className="crime-title">Messages</h2>
-
+        <br></br>
       <section className="report-section">
         <h3>From Ministry</h3>
         <ul className="messages-list">

@@ -30,6 +30,7 @@ const Reports = () => {
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setReport({ ...report, [name]: value });
+    
   };
 
   // Add new report
@@ -38,7 +39,7 @@ const Reports = () => {
     try {
       await axios.post("http://localhost:5000/update_crime", report);
       alert("Added successfully!");
-      fetchReports(); // refresh table data
+      setReports(); // refresh table data
       setReport({
         report_id:'',
         assigned_officer: '',
@@ -56,7 +57,7 @@ const Reports = () => {
     try {
       await axios.delete(`http://localhost:5000/delete-update/${report_id}`);
       alert("Deleted successfully!");
-      fetchReports(); // refresh table data
+      //fetchReports(); // refresh table data
     } catch (err) {
       console.error("Error deleting:", err);
     }
@@ -116,6 +117,7 @@ const Reports = () => {
             <th>Notes</th>
             <th>Status</th>
             <th>Action</th>
+            
           </tr>
         </thead>
 

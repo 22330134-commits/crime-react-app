@@ -6,7 +6,7 @@ const CrimeReport = () => {
   const [reports, setReports] = useState([]);
   const [report, setReport] = useState({
     crime_id: '',
-    repoter_name: '', // Matches the typo in your SQL file
+    repoter_name: '', 
     date: '',
     time: '',
     type_of_crime: ''
@@ -56,7 +56,7 @@ const CrimeReport = () => {
         <div class="form-group">
         <input
           type="text"
-          name="id"
+          name="crime_id"
           value={report.crime_id}
           onChange={handleInputChange}
           placeholder="Report ID"
@@ -66,7 +66,7 @@ const CrimeReport = () => {
         <div class="form-group">
         <input
           type="text"
-          name="reporterName"
+          name="repoter_name"
           value={report.repoter_name}
           onChange={handleInputChange}
           placeholder="Reporter Name"
@@ -76,7 +76,7 @@ const CrimeReport = () => {
         <div class="form-group">
         <input
           type="date"
-          name="crimeDate"
+          name="date"
           value={report.date}
           onChange={handleInputChange}
         />
@@ -85,7 +85,7 @@ const CrimeReport = () => {
         <div class="form-group">
         <input
           type="time"
-          name="crimeTime"
+          name="time"
           value={report.time}
           onChange={handleInputChange}
         />
@@ -94,7 +94,7 @@ const CrimeReport = () => {
         <div class="form-group">
         <input
           type="text"
-          name="crimeType"
+          name="type_of_crime"
           value={report.type_of_crime} 
           onChange={handleInputChange}
           placeholder="Type of Crime"
